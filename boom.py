@@ -6,7 +6,7 @@ import time
 
 
 SCRIPT_DIR = Path(__file__).parent
-boom = SCRIPT_DIR / 'Vine_boom_sound_effect.wav'
+boom = SCRIPT_DIR / 'boom.wav'
 
 kernel32 = ctypes.WinDLL('kernel32')
 user32 = ctypes.WinDLL('user32')
