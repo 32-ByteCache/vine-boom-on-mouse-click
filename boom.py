@@ -17,7 +17,7 @@ user32.ShowWindow(hWnd, SW_HIDE)
 
 while True:
     click = win32api.GetKeyState(0x01)
-    exit = win32api.GetKeyState(0x1B)
+    exit = win32api.GetKeyState(0x23)
     if click < 0:
         playsound(str(boom), 0)
         time.sleep(0.15)
